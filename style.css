@@ -1,0 +1,39 @@
+.car-icon {
+    background: url('van.png') no-repeat center center;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+}
+
+.marker-popup {
+    padding: 0.5rem;
+    text-align: center;
+    min-width: 100px;
+}
+
+.marker-popup p {
+    margin-bottom: 0.5rem;
+}
+
+#map {
+    height: 70vh;
+    margin-top: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn-container button {
+    margin-left: 10px;
+}
+
+#clusterInfo {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
